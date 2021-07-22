@@ -1,0 +1,106 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+.red_color{
+    color: red;
+}
+
+.center_align_container{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.align_text_center{
+    text-align: center;
+}
+
+h2{
+    line-height: 2rem;
+}
+
+/*header starts here*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color:#000;
+    margin-bottom: 5rem;
+}
+
+h4{
+    color:#fff;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+ul li{
+    padding: 20px;
+    font-weight: 700;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #ffaf40;
+}
+
+a:hover{
+    color: #e84393;
+}
+/*header ends here*/
+
+.first_article, .second_article{
+    border: 3px solid black;
+    margin-top: 30px;
+}
+
+/* Sign up form starts here */
+
+
+form{
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    height: 2em;
+    padding: 5px 0px 5px 0px;
+    box-shadow: 0 0 0 10px #c2c2c2;
+    border: 1px solid #f2f2f2;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 40%;
+    margin: 2em auto;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+.red{
+    color: red;
+}
+
+/* Sign up form ends here */

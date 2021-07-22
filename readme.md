@@ -1,0 +1,1 @@
+This is a dummy website built using php and mysql. It registers and signs in users to the site. I have used XAMPP to set my website on a local webserver.
